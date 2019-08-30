@@ -1,0 +1,82 @@
+{
+	"env": {
+		"1": "production",
+		"2": "test"
+	},
+	"http": {
+		"host": "39.106.112.199",
+		"port": 5000
+	},
+	"socket": {
+		"host": "39.106.112.199",
+		"port": 8000
+	},
+	"db": {
+		"name": "game",
+		"username": "zhiyule",
+		"password": "Fenliemofang2018",
+		"setname": "mgset-4843727",
+		"opt": {},
+		"rs0": {
+			"host" : "101.201.234.73",
+			"port" : 3717
+		},
+		"rs1": {
+			"host" : "dds-2zec1e43dc2f61c41.mongodb.rds.aliyuncs.com",
+			"port" : 3717
+		},
+		"rs2": {
+			"host" : "dds-2zec1e43dc2f61c42.mongodb.rds.aliyuncs.com",
+			"port" : 3717
+		}
+	},
+
+	"dev_http": {
+		"host": "192.168.1.114",
+		"port": 5000
+	},
+	"dev_socket": {
+		"host": "192.168.1.114",
+		"port": 8000
+	},
+	"dev_db": {
+		"name": "game",
+		"username": "zhiyule",
+		"password": "111111",
+		"setname": "zhiyule",
+		"opt": {},
+		"rs": {
+			"host": "192.168.1.114",
+			"port": 27017
+		},
+		"rs0": {
+			"host" : "192.168.1.114",
+			"port" : 2718
+		},
+		"rs1": {
+			"host" : "192.168.1.114",
+			"port" : 3717
+		},
+		"rs2": {
+			"host" : "192.168.1.114",
+			"port" : 3719
+		}
+	},
+
+	"test_http": {
+		"host": "39.106.101.80",
+		"port": 5000
+	},
+	"test_socket": {
+		"host": "39.106.101.80",
+		"port": 8000
+	},
+	"test_db": {
+		"name": "game",
+		"opt": {},
+		"rs": {
+			"host" : "39.106.101.80",
+			"port" : 27017
+		}
+	}
+}
